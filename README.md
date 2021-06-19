@@ -16,7 +16,7 @@ Attempted to uncover any hidden trends in order support the crowdfunding effort 
 
 ### Purpose
 
-To determine how other Theater projects fared in relation to launch date and funding goals in order to tailor the crowdfunding efforts for **_Fever_** to increase the odds of successs.
+To determine how other Theater projects fared in relation to launch date and funding goals in order to tailor the crowdfunding efforts for **_Fever_** to increase the odds of success.
 
 ## Analysis and Challenges
 
@@ -24,16 +24,16 @@ To determine how other Theater projects fared in relation to launch date and fun
 
 Analyzed crowdfunding campaigns for **Theaters** to determine the if the likelihood of success is dependent of the month the campaign was launched.
 For the **Theater** campaigns, categorized the outcomes into "successful", "failed", and "canceled" utilizing a pivot table.
-For the pivot table, months were utlized in the rows and outcomes were utilized in the columns.  A filter was placed to only analyze **Theater** campaigns.
+For the pivot table, months were utilized in the rows and outcomes were utilized in the columns.  A filter was placed to only analyze **Theater** campaigns.
 Created a line chart to visualize any trends according to the month the campaign was started.
 
 -------
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/85590155/122634624-68672d80-d09c-11eb-8ac8-0531a112de18.png)
 
-Anaylzed the outcomes ("successful", "failed", and "canceled") for **Plays** by the goal amount.
+Analyzed the outcomes ("successful", "failed", and "canceled") for **Plays** by the goal amount.
 The goal amount was placed into 12 buckets to determine if a certain range had a better chance of success.
-There were a total of 1047 camapaigns for **Plays**, none of which were "canceled".
+There were a total of 1047 campaigns for **Plays**, none of which were "canceled".
 Utilized Countifs function to delineate the different outcomes into the appropriate goal buckets.
 Created a line chart to visualize the percentage of outcomes based on goal amount.
 
